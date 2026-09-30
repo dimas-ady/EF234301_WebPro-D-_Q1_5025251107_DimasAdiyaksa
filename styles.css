@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f5f1ed;
+}
+
+nav {
+    color: #DAD2BC;
+    display: flex;
+    background-color: #252323;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 40px;
+}
+
+.nav-title {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 16px;
+}
+
+.nav-menu > li > a {
+    text-decoration: none;
+    color: #DAD2BC;
+}
+
+.active {
+    border-bottom: 3px solid #DAD2BC;
+}
+
+.main-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 40px;
+    color: #252323;
+}
+
+.homepage h1{
+    font-weight: 700;
+    font-size: 72px;
+    margin-bottom: 0;
+}
+
+.homepage p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.profile {
+    max-width: 70%;
+}
+
+.profile h1{
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.hi {
+    font-weight: inherit;
+}
+
+.profile p{
+    font-weight: 550;
+    font-size: 22px;
+}
+
+.hometown {
+    align-items: center;
+}
+
+.hometown h1{
+    font-weight: 750;
+    font-size: 72px;
+}
+
+.hometown p{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: justify ;
+}
+
+.hometown-paragraph {
+    display: flex;
+    width: 90%;
+    gap: 5%;
+    margin-bottom: 32px;
+    margin-top: 24px;
+}
+
+.hometown-img {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 75%;
+    gap: 60px;
+}
+
+.img-column {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    min-width: 0;
+}
+
+.hometown img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+}
+
+.cards h1 {
+    font-weight: 750;
+    font-size: 62px;
+    margin: 0;
+}
+
+.card-info h2 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.card {
+    display: flex;
+    margin: 40px 60px;
+    gap: 40px;
+}
+
+.left {
+    flex-direction: row;
+}
+
+.right {
+    flex-direction: row-reverse;
+}
+
+.card img {
+    display: block;
+    width: 20%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.card-info p {
+    font-weight: 525;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    font-size: 16px;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #252323;
+    color: #DAD2BC;
+    letter-spacing: 1px;
+}
